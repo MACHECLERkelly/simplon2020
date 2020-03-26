@@ -1,0 +1,61 @@
+
+header
+{ 
+    text-align: center; 
+    margin-top: 10px;      
+    margin-bottom: 30px; 
+} 
+h1
+{
+    text-align: center; 
+} 
+
+body 
+{
+    background-color : #E9967A; 
+}
+
+img 
+{
+float: right; 
+width: 300px;
+} 
+nav 
+{
+    background-color: white; 
+    border: black solid 1px;
+    padding: 25px;
+}
+*
+{
+    font-family: Avenir, sans-serif;
+  }
+  fieldset
+  {
+    background-color: RGBa(240, 160, 0, 0.2);
+  }
+  legend 
+  {
+    font-weight: bold;
+  }
+  .champ 
+  {
+    margin-bottom: 10px;
+  }
+  textarea 
+  {
+    width: 80%;
+    height: 100px;
+  }
+  input
+  {
+    width: 150px;
+  }
+  input[type="radio"], input[type="checkbox"]
+  {
+    width: auto;
+  }
+  input[type="submit"]
+  {
+    width: 100px;
+  }

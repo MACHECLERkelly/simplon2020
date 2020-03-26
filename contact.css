@@ -1,0 +1,17 @@
+body 
+{
+    background-color : #E9967A; 
+}
+img 
+{
+float: right; 
+width: 300px;
+} 
+
+nav 
+{
+    background-color: white; 
+    border: black solid 1px;
+    padding: 25px;
+} 
+

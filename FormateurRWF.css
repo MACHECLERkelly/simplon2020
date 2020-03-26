@@ -1,0 +1,59 @@
+h1
+{
+    text-align: center; 
+} 
+
+body 
+{
+    background-color : #E9967A; 
+} 
+
+img 
+{
+float: right; 
+width: 300px;
+} 
+
+nav 
+{
+    background-color: white; 
+    border: black solid 1px;
+    padding: 25px;
+} 
+td /* Toutes les cellules des tableaux... */ 
+{    
+    border: 1px solid black; /* auront une bordure de 1px */ 
+}
+table 
+{   
+border-collapse: collapse; /* Les bordures du tableau seront collées  */ 
+} 
+td 
+{    
+    border: 1px solid black; 
+} 
+
+table 
+{   
+     border-collapse: collapse;
+ } 
+    
+    td, th 
+    {    
+        border: 1px solid black; 
+    } 
+
+th
+{
+    background-color: red;
+} 
+
+caption 
+{
+    color:black
+}
+
+td 
+{
+    background-color: burlywood;
+}

@@ -1,0 +1,28 @@
+h1
+{
+    text-align: center;
+} 
+
+body 
+{
+    background-color : #E9967A; 
+}
+
+img 
+{
+float: right; 
+width: 300px;
+} 
+
+div 
+{
+    background-color: white; 
+    border: black solid 1px;
+    padding: 25px;
+} 
+
+aside 
+{
+    float: center; 
+    width: 300px;
+} 

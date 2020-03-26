@@ -1,0 +1,66 @@
+<!DOCTYPE html> 
+<html lang="fr"> 
+
+<head> 
+        <meta charset="utf-8"/> 
+       <title> Centre Formation RWF </title> 
+       <link rel="stylesheet"href="contact.css">   
+</head> 
+
+    <body> 
+        
+     <header> 
+                <img src='bienvenue2.jpg'alt=bienvenue2> 
+            
+    </header>
+    <nav> 
+                    <a href="#" class="navlink"> ACCEUIL</a>
+                    <a href="FormateurRWF.html" class="navlink">ESPACE FORMATEURS</a>
+                    <a href="ApprenantRWF.html" class="navlink">ESPACE APPRENANTS</a>
+                    <a href="ContactRWF.html" class="navlink">CONTACTEZ-NOUS</a>
+            
+    </nav> 
+
+<section> 
+
+    <div class="container"></div> 
+    <p>
+    <h1> Formulaire de Contact </h1>
+    </p> 
+    <fieldset>
+    <div class="form-group">
+            <label for="name">Nom</label>
+            <input type="text" class="form-control" id="name" name="user_name"minlength="2" maxlength="25" required>
+        </div>
+
+        <div class="form-group">
+            <label for="prenom">Prenom</label>
+            <input type="text" class="form-control" id="prenom" name="user_prenom" minlength="2" maxlength="25" required>
+        </div> 
+
+        <div class="form-group">
+            <label for="mail">Mail</label>
+            <input type="email" class="form-control" id="mail" name="user_mail">
+        </div>
+
+        <div class="form-group"> 
+            <label for="objet">Objet</label>
+            <input type="text" class="form-control" id="objet" name="objet" maxlength="30"> 
+        </div> 
+        <div class="formulaire">
+            <label for="msg"> Message</label>
+            <textarea id="msg" class="form-control" name="user_message"></textarea>
+        </div>
+        <p>
+        <div class="button"> 
+
+            <button type="submit">Envoyer</button> 
+
+            <button type="submit">Annuler</button> 
+        </div>
+        </p>
+    </fieldset>
+        
+    </section> 
+    </html> 
+</body> 
