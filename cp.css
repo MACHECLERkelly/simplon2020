@@ -1,0 +1,46 @@
+body 
+{
+    background-color: thistle;
+}
+
+section 
+{
+background-color: white; 
+padding: 100px;
+border-radius: 10px 10px 10px 10px;
+border-right: black 2px solid; 
+} 
+
+div 
+{
+    margin: 150px;
+}
+
+article 
+{
+padding: 100px;
+margin: 100px;
+border-radius: 10px 10px 10px 10px;
+border-right: black 2px solid; 
+background-color: burlywood;
+}
+
+footer 
+{
+background-color: blueviolet; 
+text-align: center;
+padding: 5px;
+border-radius: 10px 10px 10px 10px;
+} 
+
+#carte
+{
+    display: inline-flex; 
+
+} 
+
+img 
+{
+    width:400px; 
+    height:300px;
+}
